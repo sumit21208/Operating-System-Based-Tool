@@ -88,17 +88,6 @@ the following steps.
     - The priorities of all the ready processes (not the current process) are incremented by 1.
     - The scheduler choses the highest priority process from among all the eligible processes.
 
-- Note that during each call to the scheduler, the complete ready list has to be traversed.
-## Installation
-1- Clone the repository
-
-2- Install g++ compiler and make
-```bash
-sudo apt-get install g++ make
-```
-3- Compile the code using `make` command
-
-4- Run the executable file
 
 ## Input Format
 - Line 1: "trace" or "stats"
@@ -129,7 +118,7 @@ entered as 2-4 means Round Robin with q=4. Also, policy 8-1 means Aging with q=1
     2- Arrival Time\
     3- Priority
 - Processes are assumed to be sorted based on the arrival time. If two processes have the same arrival time, then the one with the lower priority is assumed to arrive first.
-> Check the attached [testcases](https://github.com/yousefkotp/CPU-Scheduling-Algorithms/tree/main/testcases) for more details.
+
 
 
 ## Contributors
